@@ -1,0 +1,36 @@
+#all{
+//	border:1px solid #a90;
+	width:950px;
+	height:500px;
+	margin:0 auto;
+}
+.title{					/*后台管理字体样式*/
+	//border:1px solid;
+	text-align:center;
+	color:red;
+	font:italic bold 35px/70px normal;
+}
+
+#adlogin{				/*管理登陆*/
+	width:450px;
+	height:300px;
+	//border:1px solid;
+	margin:0 auto;
+}
+#adlogin p{					
+	margin-left:90px;
+}
+.admin_sub{					/*管理登陆位置*/
+	text-indent:65px;
+}
+
+#adlogin button{				/*管理登陆样式*/
+	text-indent:0px;
+	padding:0px 10px;
+}
+
+
+
+
+
+

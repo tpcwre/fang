@@ -1,0 +1,17 @@
+﻿$(function(){
+	if($.cookie('user')!='admin'){
+		location.href="admin.php";
+	}
+	$(".exit").css('cursor','pointer').hover(function(){
+		$(this).css('color','red');
+	},function(){
+		$(this).css('color','blue');
+	}).click(function(){
+		$.removeCookie("user");
+		location.href="admin.php";
+	});
+	$(".user_del").click(function(){
+		$.cookie('user_del',$(this).attr('val'));
+		location.href="user_control.php?pnow="+$(this).attr('pnow');
+	});
+});

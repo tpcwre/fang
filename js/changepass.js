@@ -1,0 +1,48 @@
+﻿$(function(){
+	$("button").button();
+	$('.changepass').validate({
+		rules:{
+			pass:{
+				required:true,
+				minlength:6,
+			},
+			pass2:{
+				required:true,
+				equalTo:'.pass1',
+			}
+		},
+		messages:{
+			pass:{
+				required:'密码不得为空',
+				minlength:"密码不得小于6位",
+			},
+			pass2:{
+				required:'密码不得为空',
+				equalTo:'两次密码不一致',
+			}
+		},
+		errorClass:'red',
+		errorLabelContainer:"p.changepass_error",
+		wrapper:'li',
+		submitHandler:function(){
+			$('.changepass').ajaxSubmit({
+				url:'changepass_control.php',
+				type:'post',
+				success:function(response){
+					if(response==1){
+						alert('密码修改成功！！！');
+						$('.changepass').resetForm();
+						setTimeout(function(){
+							location.href='index.php';
+						},1000);
+					}else{
+						alert(0);
+					}
+				}
+			});
+		}
+		
+	});
+	
+
+});

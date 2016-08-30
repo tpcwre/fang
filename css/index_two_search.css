@@ -1,0 +1,146 @@
+﻿	
+
+				/*            搜索区域样式          */
+
+
+
+
+	.index_two_search{					/*搜索域整体字体样式*/
+		font-weight:bold;
+		text-indent:30px;
+		//border-bottom:1px solid #a90;
+		//border:1px solid;
+		padding-bottom:10px;
+		position:relative;				/*设置搜索域在主页上的位置*/
+		top:-20px;
+		margin-bottom:-20px;
+	}
+	
+	
+	.index_two_search_d{					/*搜索域文字在DIV内自动换行*/
+		word-warp:break-word;
+		margin-top:5px;
+	//	border:1px solid;
+	}
+	.index_two_search_d_d1{					/*按小区搜索左侧*/
+		float:left;
+		//border:1px solid;
+		width:147px;
+	}
+	.index_two_search_d_d2{					/*按小区搜索右侧*/
+		float:left;
+		width:730px;
+		margin-left:5px;
+		//border:1px solid;
+		//padding-right:50px;
+		text-indent:5px;
+	}							
+	.i_t_s_d_d_clear{					/*清除按小区搜索浮动*/
+		clear:left;
+	}
+	
+
+	.index_two_search a{					/*搜索域下所有 a 标签*/
+		font:normal normal 13px/18px normal;
+		color:#00c;
+		cursor:pointer;
+	}
+								/*户型-收起，更多*/
+	.index_two_search .hx_but_gd{
+		font:normal normal 13px/18px normal;
+		color:#00c;
+		cursor:pointer;
+	}
+	.index_two_search .hx_but_sq{
+		font:normal normal 13px/18px normal;
+		color:#00c;
+		cursor:pointer;
+	}
+								/*小区-收起，更多*/
+	.index_two_search .aname_but_gd{
+		font:normal normal 13px/18px normal;
+		color:#00c;
+		cursor:pointer;
+	}
+	.index_two_search .aname_but_sq{
+		font:normal normal 13px/18px normal;
+		color:#00c;
+		cursor:pointer;
+		display:none;
+	}
+	.index_two_search .s_aname_b{
+		display:none;
+	}
+	
+									/*已选条件样式*/
+	.yxtj_yxtj{
+		height:35px;
+		//border:1px solid;
+		font:normal bold 20px/35px normal;
+		color:#a90;
+	}
+	.yxtj_yxtj span{
+		font-size:17px;
+	}
+
+
+
+
+
+
+
+
+
+			/*       显示结果与广告区域       */
+
+
+.result-gg{					/*总框架*/
+	margin-top:10px;
+	border-top:1px solid #a90;
+}
+.result-gg *{
+	padding:0px;
+	margin:0px;
+	text-indent:0px;
+}
+
+.result-gg_result{			/*结果显示区域*/
+	//border:1px solid;
+	width:700px;
+	float:left;
+}	
+.result-gg_gg{				/*广告区域*/
+	float:right;
+	width:235px;
+	height:1500px;
+	border-left:1px solid #a90;
+	padding:0px;
+}
+
+.result-gg_clear{			/*清除浮动*/
+	clear:both;
+}
+
+
+.result-gg_gg .fgg{
+	height:236px;
+	width:210px;
+	border:1px solid #a90;
+	margin:5px auto;
+	padding:5px;
+	padding-bottom:2px;
+	background:#eff;
+}
+.result-gg_gg .fgg p{
+	margin-top:2px;
+	text-align:center;
+	font:normal normal 12px/15px normal;
+}
+
+
+
+
+
+
+
+
